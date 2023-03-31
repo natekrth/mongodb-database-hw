@@ -30,10 +30,10 @@ db.studentscores.aggregate([
 #### Result Output
 ```
 [
-  { _id: 'Steve', total_marks: 247 },
-  { _id: 'Rav', total_marks: 216 },
   { _id: 'Alison', total_marks: 252 },
   { _id: 'Ramesh', total_marks: 223 },
+  { _id: 'Rav', total_marks: 216 },
+  { _id: 'Steve', total_marks: 247 },
   { _id: 'Jan', total_marks: 0 }
 ]
 ```
@@ -47,9 +47,9 @@ db.studentscores.aggregate([
 #### Result Output
 ```
 [
-  { _id: 'english', max_score: 89 },
+  { _id: 'science', max_score: 86 },
   { _id: 'maths', max_score: 87 },
-  { _id: 'science', max_score: 86 }
+  { _id: 'english', max_score: 89 }
 ]
 ```
 
@@ -64,10 +64,10 @@ db.studentscores.aggregate([
 #### Result Output
 ```
 [
-  { _id: 'Steve', min_score: 77 },
-  { _id: 'Rav', min_score: 62 },
   { _id: 'Alison', min_score: 82 },
   { _id: 'Ramesh', min_score: 59 },
+  { _id: 'Rav', min_score: 62 },
+  { _id: 'Steve', min_score: 77 },
   { _id: 'Jan', min_score: 0 }
 ]
 ```
